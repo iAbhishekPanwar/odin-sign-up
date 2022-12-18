@@ -3,9 +3,6 @@
     src: url(../fonts/Norse-Bold.otf);
   }
   
-  h1 {
-    font-family: Norse-Bold, sans-serif;
-  }
 
   body{
     margin: 0;
@@ -24,11 +21,34 @@
     width: 40vw;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    color: white;
+    font-family: Norse-Bold, sans-serif;
     
     
   }
   
   .right {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    background-color: #b8a3a3;
+    width: 65vw;
+    
+  }
+
+  .first{
+    height: 36vh;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    align-items: flex-end;
+  }
+
+  .second {
+    height: 32vh;
+    background-color: rgb(158, 132, 132);
+  }
+
+  .third{
+    height: 32vh;
   }
