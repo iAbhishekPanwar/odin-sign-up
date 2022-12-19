@@ -24,7 +24,8 @@
     background-size: 100% 100%;
     color: white;
     font-family: Norse-Bold, sans-serif;
-    
+    display: flex;
+    flex-direction: column;
     
   }
   
@@ -78,10 +79,68 @@
   }
 
   label{
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bolder;
     color: 2px solid rgb(0, 7, 12);
+  }
+
+  .btn-green{
+    background-color: rgb(179, 60, 60);
+    color: white;
+    border: 1px solid rgb(179, 60, 60);
+    border-radius: 5px;
+    height: 40px;
+    width: 175px;
+    font-weight: bolder;
+    font-size: medium;
   }
 
   .third{
     height: 30vh;
+    margin: 40px;
+    margin-left: 150px;
+  }
+
+  .hyperlink{
+    margin-bottom: 170px;
+    margin-left: 130px;
+  }
+
+  a{
+    color: rgb(179, 60, 60);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .a-footer{
+    color: white;
+  }
+
+  .p-footer{
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .forImage{
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .forFooter{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .transparent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    /* background-color: rgb(117, 21, 85); */
+    background-color: black;
+    align-items: center;
+    opacity: 0.6;
   }
